@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Ubuntu:ital,wght@1,700&display=swap");
+
+:root {
+  --onyx: #393e41;
+  --timberwolf: #d3d0cb;
+  --header-font: "Ubuntu", sans-serif;
+  --paragraph-font: "Merriweather", sans-serif;
+}
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+#topnav {
+  background-color: darkmagenta;
+}
+#topnav-brand {
+  font-family: var(--header-font);
+}
+#showcase {
+  background-color: var(--onyx);
+}
+
+#showcase-header {
+  font-family: var(--header-font);
+}
+#showcase-paragraph {
+  font-family: var(--paragraph-font);
+}
+#plans {
+  background-color: var(--timberwolf);
+}
+#single-card-header {
+  font-family: var(--header-font);
+}
+#single-card-paragraph {
+  font-family: var(--paragraph-font);
+}
+#single-card-lightning {
+  background-color: darkgoldenrod;
+  border-radius: 5px;
+}
+#single-card-sun {
+  background-color: darkorange;
+  border-radius: 5px;
+}
+#single-card-trophy {
+  background-color: darkmagenta;
+  border-radius: 5px;
+}
+#icon {
+  height: 50px;
+  width: 50px;
+}
+#fitness-classes {
+  background-color: darkorange;
+  display: flex;
+}
+#fitness-classes-header {
+  color: var(--timberwolf);
+  font-family: var(--header-font);
+}
+#dance-class-tab-header {
+  background-color: darkgoldenrod;
+  font-family: var(--header-font);
+  color: var(--timberwolf);
+}
+#dance-class-card-body {
+  background-color: darkgoldenrod;
+  font-family: var(--paragraph-font);
+  color: var(--timberwolf);
+}
+#spin-class-tab-header {
+  background-color: darkmagenta;
+  font-family: var(--header-font);
+  color: var(--timberwolf);
+}
+#spin-class-card-body {
+  background-color: darkmagenta;
+  font-family: var(--paragraph-font);
+  color: var(--timberwolf);
+}
+#sr-class-tab-header {
+  background-color: darkorchid;
+  font-family: var(--header-font);
+  color: var(--timberwolf);
+}
+#sr-class-card-body {
+  background-color: darkorchid;
+  font-family: var(--paragraph-font);
+  color: var(--timberwolf);
+}
+#portfolio-link {
+  background-color: var(--timberwolf);
+  width: 200px;
+  border-radius: 10px;
+}
+footer {
+  background-color: darkmagenta;
+  font-family: var(--header-font);
+  color: var(--timberwolf);
+}
